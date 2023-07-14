@@ -7,7 +7,7 @@ const galleryDiv = document.querySelector(".gallery");
 loadMoreButton.style.visibility = "hidden";
 const form = document.querySelector(".search-form");
 let page = 1;
-const perPage = 20;
+const perPage = 40;
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
