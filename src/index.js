@@ -63,7 +63,7 @@ function updateHtml(response) {
 function getInfoItem(content, value) {
   const p = document.createElement("p");
   p.classList.add("info-item");
-  p.innerHTML = `<b>${content}</b>: ${value}`;
+  p.innerHTML = `<b>${content}</b>${value}`;
 
   return p;
 }
